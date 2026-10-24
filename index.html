@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b18" />
+  <meta name="description" content="A birthday universe made just for Kai (Aditya)." />
+  <title>For Kai ✦ A Birthday Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="#home" aria-label="Back to top"><span class="brand-mark">✦</span> KAI<span class="brand-dot">.</span></a>
+    <div class="nav-links">
+      <a href="#letter">The letter</a>
+      <a href="#blessings">Blessings</a>
+      <a href="#finale">Final surprise</a>
+    </div>
+    <button class="sound-toggle" id="soundToggle" aria-label="Toggle ambient sound" title="Toggle ambient sound">♫ <span>Sound off</span></button>
+  </nav>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A little universe, made for you <span class="eyebrow-line"></span></div>
+        <p class="hero-pretitle">HAPPY BIRTHDAY</p>
+        <h1 class="hero-title"><span class="title-small">dear</span><span class="name-gradient">KAI</span><span class="hero-sparkle">✧</span></h1>
+        <p class="hero-subtitle">also known as <strong>Aditya</strong> — today, the universe celebrates you.</p>
+        <div class="hero-chips"><span>✦ another year</span><span>♡ more memories</span><span>∞ endless potential</span></div>
+        <a class="primary-button" href="#letter">Open your birthday message <span>↘</span></a>
+        <div class="scroll-hint"><span class="scroll-line"></span> KEEP SCROLLING, LEGEND</div>
+      </div>
+      <div class="floating-star star-a">✦</div><div class="floating-star star-b">✧</div><div class="floating-star star-c">✦</div>
+      <div class="planet planet-large"><div class="planet-ring"></div><div class="planet-shine"></div></div>
+      <div class="hero-bottom-note">MADE WITH APPRECIATION <span>·</span> FOR KAI</div>
+    </section>
+
+    <section class="intro section section-narrow reveal">
+      <p class="section-kicker">01 / TODAY IS YOURS</p>
+      <h2>Some people make life<br><em>a little more legendary.</em></h2>
+      <p class="intro-copy">And then there's you, Kai. This isn't just another birthday text that gets buried in the chat. It's a tiny corner of the internet made to remind you that your life matters, your future is bright, and the best chapters are still unwritten.</p>
+      <div class="signature-line"><span></span><span class="signature-star">✦</span><span></span></div>
+    </section>
+
+    <section class="stats-section section reveal">
+      <div class="section-heading">
+        <p class="section-kicker">02 / YOUR NEXT CHAPTER</p>
+        <h2>Here's to <em>what's next.</em></h2>
+        <p>May this year bring you the kind of moments you remember forever.</p>
+      </div>
+      <div class="stat-grid">
+        <article class="stat-card"><div class="stat-icon">✧</div><div class="stat-number" data-count="365">000</div><h3>new chances</h3><p>Fresh starts, new lessons, and reasons to keep going.</p></article>
+        <article class="stat-card stat-card-featured"><div class="stat-icon">∞</div><div class="stat-number">∞</div><h3>possibilities</h3><p>More potential than you can see from where you stand today.</p></article>
+        <article class="stat-card"><div class="stat-icon">♡</div><div class="stat-number" data-count="100">000</div><h3>reasons to smile</h3><p>Small wins, loud laughs, and people who have your back.</p></article>
+      </div>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-backdrop"></div>
+      <div class="letter-wrap reveal">
+        <div class="letter-top"><span>✦ A NOTE FOR YOU</span><span>25 / ∞</span></div>
+        <div class="letter-card">
+          <div class="letter-decoration">❝</div>
+          <p class="section-kicker">TO KAI (ADITYA)</p>
+          <h2>Dear Kai,</h2>
+          <p>Happy birthday, bro. ❤️</p>
+          <p>I hope this next chapter of your life brings you peace when things get heavy, courage when things get uncertain, and happiness in moments you never expected. Keep being yourself, keep growing, and don't let a rough day convince you that you're not capable of amazing things.</p>
+          <p>May the goals you're working toward get closer, may the people around you be genuine, and may you always find a reason to be grateful — even on the ordinary days.</p>
+          <p>You've got a whole lot of life ahead of you. Make it count, take the chances that matter, laugh as much as possible, and never forget how much good can still be waiting around the corner.</p>
+          <p class="letter-bold">This year is another page. Make it a great one.</p>
+          <div class="letter-signoff">With respect & good wishes, <span>your friend ✦</span></div>
+        </div>
+        <div class="letter-footnote">A MESSAGE THAT DOESN'T EXPIRE <span>✧</span></div>
+      </div>
+    </section>
+
+    <section class="blessings-section section" id="blessings">
+      <div class="section-heading reveal">
+        <p class="section-kicker">03 / A PRAYER FOR YOUR YEAR</p>
+        <h2>May God guide <em>your steps.</em></h2>
+        <p>A birthday blessing for your life, your faith, and your future.</p>
+      </div>
+      <div class="verse-card reveal">
+        <div class="verse-glow"></div>
+        <div class="verse-cross">✝</div>
+        <p class="verse-label">A BLESSING FROM SCRIPTURE</p>
+        <blockquote>“The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee.”</blockquote>
+        <p class="verse-reference">NUMBERS 6:24–25 <span>·</span> KJV</p>
+        <div class="verse-divider"><span>✦</span></div>
+        <p class="verse-prayer">May God protect you, give you wisdom for every decision, strengthen you in difficult seasons, and fill your days with peace and purpose. May you keep growing into the person He created you to be.</p>
+      </div>
+      <div class="mini-verses reveal">
+        <article><span class="mini-verse-icon">01</span><div><h3>For your future</h3><p>“...to give you hope and a future.”</p><small>JEREMIAH 29:11 · NIV</small></div></article>
+        <article><span class="mini-verse-icon">02</span><div><h3>For your courage</h3><p>“Be strong and of a good courage...”</p><small>JOSHUA 1:9 · KJV</small></div></article>
+        <article><span class="mini-verse-icon">03</span><div><h3>For your dreams</h3><p>“May he give you the desire of your heart...”</p><small>PSALM 20:4 · NIV</small></div></article>
+      </div>
+    </section>
+
+    <section class="wish-section section reveal">
+      <p class="section-kicker">04 / THE BIRTHDAY WISH LIST</p>
+      <h2>Things I hope this year<br><em>brings your way.</em></h2>
+      <div class="wish-list">
+        <div class="wish-item"><span class="wish-symbol">✧</span><span>Peace that stays, even when life gets loud.</span><span class="wish-number">01</span></div>
+        <div class="wish-item"><span class="wish-symbol">↗</span><span>Progress that makes you proud of yourself.</span><span class="wish-number">02</span></div>
+        <div class="wish-item"><span class="wish-symbol">♡</span><span>People who show up and mean what they say.</span><span class="wish-number">03</span></div>
+        <div class="wish-item"><span class="wish-symbol">☼</span><span>Unexpected joy on completely normal days.</span><span class="wish-number">04</span></div>
+        <div class="wish-item"><span class="wish-symbol">∞</span><span>The courage to chase the life you picture.</span><span class="wish-number">05</span></div>
+      </div>
+    </section>
+
+    <section class="interactive-section section reveal">
+      <div class="interactive-orb">✦</div>
+      <p class="section-kicker">05 / A LITTLE INTERACTIVE MAGIC</p>
+      <h2>Make a wish, <em>Kai.</em></h2>
+      <p class="interactive-copy">Take a second. Think of something you hope for this year, then tap the star.</p>
+      <button id="wishButton" class="wish-button" aria-label="Make a birthday wish"><span>✦</span></button>
+      <p id="wishResponse" class="wish-response" aria-live="polite">YOUR WISH IS BETWEEN YOU AND THE STARS.</p>
+      <div class="wish-counter"><span id="wishCount">0</span> wishes sent into the universe</div>
+    </section>
+
+    <section class="finale-section section" id="finale">
+      <div class="finale-stars" aria-hidden="true">✦　　✧　　 ·　　✦　　✧</div>
+      <div class="finale-content reveal">
+        <p class="section-kicker">06 / BEFORE YOU GO</p>
+        <div class="finale-emblem">K<span>✦</span></div>
+        <h2>Keep becoming<br><em>who you're meant to be.</em></h2>
+        <p>Happy birthday, Kai (Aditya). May your faith stay strong, your heart stay kind, and your future be full of things worth looking forward to.</p>
+        <p class="finale-blessing">God bless you today and always. ✝</p>
+        <button id="celebrateButton" class="primary-button celebrate-button">One last surprise <span>✦</span></button>
+        <div class="finale-signature">HAPPY BIRTHDAY <span>·</span> KAI <span>·</span> ALWAYS FORWARD</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> KAI<span class="brand-dot">.</span></a>
+    <p>Built with good wishes, a little code, and a lot of appreciation.</p>
+    <a href="#home" class="back-top">BACK TO THE STARS ↑</a>
+  </footer>
+
+  <div id="surpriseModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal" aria-label="Close surprise">×</button>
+      <div class="modal-star">✦</div>
+      <p class="section-kicker">THE LAST THING I WANT YOU TO KNOW</p>
+      <h2 id="modalTitle">You're just getting started.</h2>
+      <p>Don't rush your journey. Keep your faith, do the work, take care of your people, and trust that small steps still move you forward. Your story is still being written — and there's so much more to come.</p>
+      <div class="modal-scripture">“I can do all things through Christ which strengtheneth me.”<span>PHILIPPIANS 4:13 · KJV</span></div>
+      <button class="primary-button" id="modalCelebrate">LET'S CELEBRATE <span>✦</span></button>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status">Happy birthday, Kai! ✦</div>
+  <script src="script.js"></script>
+</body>
+</html>
